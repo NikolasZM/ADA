@@ -13,7 +13,7 @@ int bien(int n, int x) {
 	if (n == 1) {
 		return x;
 	}
-	int aux = bien(n / x,x);
+	int aux = bien(n / 2,x);
 	return aux*aux;
 }
 
